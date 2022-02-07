@@ -1,5 +1,5 @@
-const alunos =  ['Mateus', 'Fernando', 'Victor']
-//                  0          1           2
+const alunos =  ['Mateus', 'Fernando', 'Victor'] // => arrays
+//                  0          1           2 => itens indexados
 //Indexação de array é feito por elemento
 console.log(alunos[0]);
 console.log(alunos[1]);
