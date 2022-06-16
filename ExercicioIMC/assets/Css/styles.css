@@ -61,3 +61,12 @@ border-radius: 30px;
     margin-bottom: 5px;
     border-radius: 30px;
 }
+
+.weightImg{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  border-top: 50px;
+}
