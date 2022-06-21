@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="Css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Calcule seu IMC!!!</title>
   </head>
   <body>
     <section class="container">
-      <form action="/" class="formulario" method="POST">
-      <h1>Vamos calcular seu IMC</h1>
+      <form action="/" class="forms" id="formulario" method="POST">
+      
       <div class="imcBox">
-        <img class="weightImg" src="./Image/105651-weight-scale.gif" />
+        <h1>Calcule seu IMC</h1>
+        <img class="weightImg" src="./assets/img/scale.gif" />
         <p>Valores de referência</p>
         <div class="globalValue">
           <ul class="refValue">
@@ -47,8 +47,6 @@
             <br />
           </ul>
         </div>
-        <!-- metodo de envio: post -->
-       
           <label for="Peso">Peso</label>
           <input
             id="peso"
@@ -58,13 +56,14 @@
             class="pesoInput"
           />
           <label for="Altura">Altura</label>
-          <input id="altura" name="altura" type="text" placeholder="Insira sua
-          altura class="pesoInput" placeholder="Insira sua altura"
+          <input id="altura" name="altura" type="text" class="pesoInput" placeholder="Insira sua altura"
           class="alturaInput" />
           <button type="submit" class="calcBtn">Calcular</button>
+          <div class="result" id="resultado"></div>
         </form>
       </div>
+      
     </section>
-    <script src="../assets/Js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

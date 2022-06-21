@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(315deg, #bbffda 0%, #147885 100%);
+  font-family: "monospace, sans-serif";
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.imcBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: #bbffda 1px solid;
+  width: 70%;
+  border-radius: 20px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.globalValue {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+.refValue {
+  border: 1px solid #bbffda;
+  color: aliceblue;
+  border-radius: 10px;
+
+  width: 30%;
+}
+
+.refIndex {
+  border: 1px solid #bbffda;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.pesoInput {
+  margin-bottom: 5px;
+  border-radius: 30px;
+  border: 1px solid #bbffda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alturaInput {
+  margin-bottom: 5px;
+  border-radius: 30px;
+  border: 1px solid #bbffda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weightImg {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  border-top: 50px;
+  margin-top: 10px;
+}
+
+.forms {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+
+.result{
+  border: #a4e7a9 2px solid;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.calcBtn{
+  width: 25%;
+  border-radius: 10px;
+  background-color: #bbffda;
+  color: black;
+  font-size: large;
+  border: #bbffda;
+}
+
+.calcBtn:hover{
+ color: #000000;
+ background-color: #306430;
+ border: #bbffda;
+  
+}
+
+.paragrafo-resultado, .bad{
+  background-color:#9dffc9 ;
+  padding: 10px;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.bad{
+  color: #000000;
+  background-color: rgb(236, 144, 162);
+}
+
