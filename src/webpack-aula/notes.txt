@@ -1,0 +1,25 @@
+babel-loader – Este pacote permite transpilar arquivos JavaScript usando Babel e webpack .
+@babel/core – Núcleo do compilador Babel. Transpile ES2015 + para JavaScript compatível com versões anteriores
+@babel/preset-env – Uma predefinição Babel para cada ambiente.
+@babel/preset-react – Predefinição do Babel para todos os plug-ins React.
+@babel/plugin-proposal-class-properties – Este plug-in transforma as propriedades estáticas da classe, bem como as propriedades declaradas com a sintaxe do inicializador de propriedade.
+@babel/plugin-transform-react-jsx – Transforme JSX em chamadas de função React.
+
+
+- CSS
+sass-loader – Carrega um arquivo Sass / SCSS e o compila em CSS.
+postcss-loader – Processar CSS com PostCSS
+postcss-preset-env – Padrões sensíveis para PostCSS
+css-loader – Resolver importações de CSS
+style-loader – Injetar CSS no DOM
+Agora importe no arquivo index.js e adicione os quatro carregadores. 
+Eles compilam do último para o primeiro, então o último que você vai querer na lista é sass-loader. O que precisa ser compilado PostCSS,
+ CSS e por ultimo style-loader que finalmente injetará o CSS no DOM.
+
+ Nota: esta é uma configuração para desenvolvimento. 
+ Para produção, você usará o MiniCssExtractPlugin em vez de style-loader, 
+ que exportará o CSS como um arquivo reduzido.
+
+ ESLINT
+ yarn add eslint -D
+ yarn eslint --init

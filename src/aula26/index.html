@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Calcule seu IMC!!!</title>
+  </head>
+  <body>
+    <section class="container">
+      <form action="/" class="forms" id="formulario" method="POST">
+      
+      <div class="imcBox">
+        <h1>Calcule seu IMC</h1>
+        <img class="weightImg" src="./assets/img/scale.gif" />
+        <p>Valores de referência</p>
+        <div class="globalValue">
+          <ul class="refValue">
+            <p>IMC</p>
+            <li>Inferior 18,5</li>
+            <br />
+            <li>18,5 e 24,9</li>
+            <br />
+            <li>25 e 29,9</li>
+            <br />
+            <li>30 e 34,9</li>
+            <br />
+            <li>35 e 39,9</li>
+            <br />
+            <li>Superior a 40</li>
+            <br />
+          </ul>
+          <ul class="refIndex">
+            <p>Resultado</p>
+            <li>Abaixo do peso</li>
+            <br />
+            <li>Peso normal</li>
+            <br />
+            <li>sobrepeso</li>
+            <br />
+            <li>Obesidade grau I</li>
+            <br />
+            <li>Obesidade grau II</li>
+            <br />
+            <li>Obesidade grau III</li>
+            <br />
+          </ul>
+        </div>
+          <label for="Peso">Peso</label>
+          <input
+            id="peso"
+            name="peso"
+            type="text"
+            placeholder="Insira seu peso"
+            class="pesoInput"
+          />
+          <label for="Altura">Altura</label>
+          <input id="altura" name="altura" type="text" class="pesoInput" placeholder="Insira sua altura"
+          class="alturaInput" />
+          <button type="submit" class="calcBtn">Calcular</button>
+          <div class="result" id="resultado"></div>
+        </form>
+      </div>
+      
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
